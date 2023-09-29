@@ -1,0 +1,53 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-transform: capitalize;
+}
+
+.item {
+	border: 1px solid #e5e5e5;
+	text-align: center;
+	font-size: 25px;
+	padding: 1em;
+}
+
+.bottom {}
+
+.dec {
+	background: #E91E63;
+	color: white;
+}
+
+.inc {
+	background: #3F51B5;
+	color: white;
+}
+
+section {
+
+	margin: 16em auto;
+
+	display: flex;
+
+	justify-content: center;
+
+	align-items: center;
+
+	gap: 29px;
+}
+
+button {
+	font-size: 23px;
+	/* background: #4887be; */
+	border: none;
+	padding: 19px;
+	border-radius: 6px;
+	margin: 13px;
+	cursor: pointer;
+}
+
+h1 {
+	font-size: 60px;
+	margin: 50px auto;
+}

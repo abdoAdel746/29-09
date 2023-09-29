@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+
+<body>
+    <header>
+        <h1>CRUDS operating system ..!</h1>
+    </header>
+
+    <section class="section_form">
+        <form action="" method="">
+            <div class="row product">
+                <div class="col-6">
+                    <label for="product_name">product name</label>
+                    <input id="product_name" type="text" placeholder="name" required/>
+                </div>
+                <div class="col-6">
+                    <label for="product_category">product category</label>
+                    <input id="product_category" type="text" placeholder="category"required/>
+                </div>
+            </div>
+
+            <div class="row product">
+                <div class="col-4">
+                    <label for="product_price">product price</label>
+                    <input id="product_price" type="number" min="0" placeholder="name" required/>
+                </div>
+                <div class="col-4">
+                    <label for="product_discount">product discount</label>
+                    <input id="product_discount" type="number" min="0"  placeholder="discount" required/>
+                </div>
+                <div class="col-4">
+                    <label for="product_quantity">product quantity</label>
+                    <input id="product_quantity" type="number" min="0" placeholder="quantity" required/>
+                </div>
+            </div>
+
+            <div class="row product">
+                <div class="col-12">
+                    <label for="product_describtion">product describtion</label>
+                    <textarea name="product_describtion" id="product_describtion" required cols="30" rows="10" maxlength="50"></textarea>
+                </div>
+            </div>
+
+            <button type="submit">add product</button>
+        </form>
+    </section>
+
+    <section>
+        <div class="head">
+            <input type="text" placeholder="search..." />
+        </div>
+        <div class="body" style="overflow-x:auto;">
+            <table>
+                
+                <tr>
+                    <th>name</th>
+                    <th>category</th>
+                    <th>price</th>
+                    <th>discount</th>
+                    <th>quantity</th>
+                    <th>description</th>
+                    <th>update</th>
+                    <th>delete</th>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <script src="assets/scripts/main.js"></script>
+</body>
+
+</html>
